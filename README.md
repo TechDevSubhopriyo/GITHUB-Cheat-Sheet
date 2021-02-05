@@ -7,7 +7,7 @@ Git Commands
 | Command | Description |
 | ------- | ----------- |
 | git init | Initialize a local Git repository |
-| git clone <url> | Create a local copy of a remote repository |
+| git clone [url] | Create a local copy of a remote repository |
 
 ### Basic Snapshotting
 
@@ -49,8 +49,8 @@ Git Commands
 | git push origin --delete [branch name] | Delete a remote branch |
 | git pull | Update local repository to the newest commit |
 | git pull origin [branch name] | Pull changes from remote repository |
-| git remote add origin <url> | Add a remote repository |
-| git remote set-url origin <url> | Set a repository's origin branch to SSH |
+| git remote add origin [url] | Add a remote repository |
+| git remote set-url origin [url] | Set a repository's origin branch to SSH |
 
 ### Inspection & Comparison
 
